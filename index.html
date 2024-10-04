@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="shortcut icon" href="src/image/logo-icon.png" type="image/x-icon">
+
+    <title>Conquista em Cores</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <img class="logo" src="./src/image/logo-conquista-em-cores.png">
+        <ul class="nav-links">
+            <li><a href="home"></a>Home</li>
+            <li><a href="história"></a>História</li>
+            <li><a href="beneficios"></a>Beneficios</li>
+            <li><a href="evolução"></a>Evolução</li>
+            <li class="ctn"><a href="https://www.instagram.com/conquista.em.cores/"></a>Instagram</li>
+        </ul>
+        <img src="./src/image/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>"A arte é a nossa única salvação dos horrores da existência."</h2>
+            <div class="line"></div>
+            <h1>CONQUISTA EM CORES</h1>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjl7eO_69hpe0co04Qg8USR-ZTKYaioYmRyJ2Zhuda_rr1bQ/viewform" class="ctn">Saiba mais</a>
+        </div>
+    </header>
+
+    <!-- == Events == -->
+     <section class="events">
+            <div class="title">
+                <h1>História</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./src/image/arte1.png" alt="">
+                    <h4>As Origens do Grafite de Rua</h4>
+                    <p>O grafite de rua tem suas origens modernas nos Estados Unidos na década de 1970, particularmente em Nova York. Artistas como TAKI 183 e Jean-Michel Basquiat começaram a deixar suas marcas nas paredes e vagões de trem, muitas vezes como forma de expressão pessoal ou protesto. A prática rapidamente se tornou uma subcultura, com grafiteiros criando códigos e estilos próprios. O grafite evoluiu de simples assinaturas para murais complexos e detalhados, ganhando reconhecimento tanto como forma de arte quanto como meio de comunicação social e política.</p>
+                </div>
+                <div class="col">
+                    <img src="./src/image/arte2.png" alt="">
+                    <h4>Grafite no Brasil</h4>
+                    <p>Ao longo dos anos, o grafite de rua expandiu-se globalmente, alcançando cidades em todo o mundo, inclusive no Brasil. Aqui, artistas como Os Gêmeos, Kobra e Eduardo Kobra se destacaram internacionalmente com seus trabalhos vibrantes e críticos. Apesar de muitas vezes ser considerado vandalismo pelas autoridades, o grafite também é valorizado em círculos artísticos e tem encontrado espaço em galerias e museus. Hoje, ele é reconhecido como uma forma poderosa de expressão cultural e social, refletindo as vozes das comunidades urbanas e suas lutas.</p>
+                </div>
+            </div>
+     </section>
+
+     <section class="explore">
+        <div class="explore-content">
+        <h1>Beneficíos</h1>
+        <div class="line"></div>
+        <p>O grafite de rua é uma forma de arte que traz diversos benefícios para as comunidades, como a expressão artística e a revitalização de espaços urbanos degradados. Além de contribuir para a identidade cultural local, muitas obras abordam questões sociais e políticas, gerando conscientização e promovendo discussões importantes. Também pode estimular a economia ao atrair turistas e eventos, além de envolver os jovens em atividades criativas e educativas, fortalecendo o senso de pertencimento e comunidade.</p>
+        </div>
+     </section>
+
+     <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Antes e <span class="depois">depois</span>: Fachadas que transformaram cidades</h1>
+                <div class="line"></div>
+                <p>Ao imaginar uma metrópole, dois itens parecem indispensáveis: os prédios altos e cinzas e o ar poluído. É esta a dura realidade de quase toda grande cidade ao redor do mundo, mas alguns artistas e ativistas estão dispostos a nos lembrar que não precisa ser assim.</p>
+                <a href="https://casavogue.globo.com/Arquitetura/Cidade/noticia/2016/11/antes-e-depois-15-fachadas-que-transformaram-cidades.html" class="ctn">Saiba mais</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./src/image/antes1.png" alt="">
+                    <img src="./src/image/depois1.png" alt="">
+                    <img src="./src/image/antes2.png" alt="">
+                    <img src="./src/image/depois2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+     </section>
+
+     <section class="footer">
+        <p>Alunos da Unex Centro Universitário de Excelência | Vitória da Conquista <br>
+        <br>
+        Envolvidos no projeto:<br>
+        Caio de Jesus Souza | Dainan Amorim de Oliveira | Gleyton Willigton Santos | Lucca Felipe Santos Rocha | Erivelton 
+        <p>Copyright &#169 2024 Conquista em Cores</p>
+        
+         
+
+        </p>
+     </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
