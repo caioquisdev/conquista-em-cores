@@ -103,9 +103,9 @@ header {
 
 .menu-btn {
   position: absolute;
-  top: 30px;
-  right: 30px;
-  width: 40px;
+  top: 10px;
+  right: 20px;
+  width: 20px;
   cursor: pointer;
   display: none;
 }
@@ -249,15 +249,22 @@ p {
 @media only screen and (max-width: 768px) {
   .menu-btn {
     display: block;
+    z-index: 999;
+    /* padding: -150px; */
+    margin: 0;
   }
 
   .navbar {
-    padding: 0;
+    position: fixed;
+    z-index: 999;
+    padding: 25px;
   }
   .logo {
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 10px;
+    left: 20px;
+    width: 1.5rem;
+    height: 1.5rem;
   }
   .nav-links {
     flex-direction: column;
@@ -265,7 +272,7 @@ p {
     height: 100vh;
     justify-content: center;
     background: #484872;
-    margin-top: -910px;
+    margin-top: -999px;
     transition: all 0.5s ease;
   }
   .mobile-menu {

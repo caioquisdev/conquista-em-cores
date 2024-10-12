@@ -99,6 +99,11 @@
 
         menuBtn.addEventListener('click',()=>{
             navlinks.classList.toggle('mobile-menu')
+            navlinks.setAttribute('display', 'block')
+            navlinks.addEventListener('click', () => {
+                navlinks.classList.remove('mobile-menu')
+            })
+            
         })
 
 
